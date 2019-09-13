@@ -1,7 +1,9 @@
 html {
     background-color: white;
 }
-body {
+@media only screen and (max-device-width: 900px) {
+/* .menu { width:100%; } */
+    body {
     font: normal 15px Arial;
     width: 200px;
     color: white;
@@ -13,6 +15,8 @@ body {
 
     border-radius: 15px;
 }
+}
+
 #login-id{
     text-align: center;
 }
