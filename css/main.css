@@ -1,0 +1,24 @@
+html {
+    background-color: white;
+}
+body {
+    font: normal 15px Arial;
+    width: 200px;
+    color: white;
+    margin: 260px auto;
+    background-color: rgb(39, 39, 39);
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+
+    border-radius: 15px;
+}
+#login-id{
+    text-align: center;
+}
+#erro-id {
+    font-size: 12px;
+    background-color: rgb(105, 34, 34);
+    margin: 5px 13px ;
+    border: 2px solid rgb(105, 34, 34);
+}
