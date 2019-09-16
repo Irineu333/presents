@@ -10,7 +10,7 @@ mySubmit.onclick = function()
     mySenha = document.getElementById('user-senha-id').value
     if(!mySenha||!myLogin)
     {
-        //document.getElementById('erro-id').style.display = 'block';
+        document.getElementById('erro-id').style.display = 'block';
     } else {
         logon();
     }
