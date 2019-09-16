@@ -3,34 +3,28 @@ html {
 }
 
 #login-id {
-    
     width: 200px;
-    margin: 160px auto 0px;
+    /*margin: 0px auto 0px; Antiga forma de centralizar */
     background-color: rgb(39, 39, 39);
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    
-    border-radius: 15px;
-    /* integração */
+    border-radius: 13px;
     text-align: center;
+    position: absolute;
+
+    /*Nova forma de centralizar*/
+    left: 50%; top: 45%;
+    transform: translate(-50%, -50%);
+        
 }
 
 body {
     font: normal 15px Arial;
     color: white;
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(255, 255, 255);
 }
-/*
-#by{
-    width: 200px;
-    margin: 0px auto 0px;
-    background-color: rgb(92, 6, 6);
-    border-radius: 2px;
-    text-align: center;
-    border: 2px solid rgb(92, 6, 6);
-}
-*/
+
 #erro-id {
     font-size: 12px;
     background-color: rgb(112, 31, 31);
