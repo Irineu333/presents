@@ -21,5 +21,5 @@ mySubmit.onclick = function()
 }
 registrar = function()
 {
-
+    
 }
